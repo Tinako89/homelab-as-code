@@ -3,7 +3,7 @@
 Mi laboratorio para aprender a ser Sysadmin Junior.
 
 ## ¿Qué estoy aprendiendo?
-- **Proxmox**: crear máquinas virtuales con Virtual Box dentro de mi PC.
+- **Proxmox**: crear máquinas virtuales con VirtualBox dentro de mi PC.
 - **Terraform**: escribir una "receta" para crear esas máquinas automáticamente.
 - **Ansible**: configurarlas todas a la vez sin entrar una por una.
 
