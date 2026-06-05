@@ -261,7 +261,7 @@ Lo que acabas de hacer es el paso que separa a los que "instalan Linux" de los q
 
 <img width="371" height="153" alt="Captura de pantalla 2026-06-06 011832" src="https://github.com/user-attachments/assets/64edbea7-46d5-4793-9a2c-376b5c5f07fc" />
 
-Nivel 2 — Automatización:
+Nivel 2: Automatización.
 Toca instalar WSL en tu Windows, metemos Ansible, y con UN comando instalamos Nginx en ese Debian y lo dejamos sirviendo una página en http://192.168.56.101.
 
 
