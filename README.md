@@ -78,9 +78,10 @@ Arriba a la izquierda, pulsa Nueva.
 Nombre: lab-debian-1
 Tipo: Linux.
 ISO: La imágen ISO que hemos descargado anteriormente.
+Marcar el cuadrito "Omitir isntalación desatendida"
 Versión: Debian (64-bit)
 
-<img width="1025" height="583" alt="Captura de pantalla 2026-06-05 192106" src="https://github.com/user-attachments/assets/0381885c-6e45-42a2-be32-13f778be4bec" />
+<img width="869" height="640" alt="Captura de pantalla 2026-06-05 202053" src="https://github.com/user-attachments/assets/7a0f43e4-a920-4005-9e69-311c3ec399c2" />
 
 Memoria dejar en 2048 MB, añade si quieres dos núcleos.
 
