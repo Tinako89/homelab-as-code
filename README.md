@@ -1,47 +1,65 @@
 <div align="center">
 
-# Homelab-as-Code
+<img width="1440" height="816" alt="homelab_cover_v3_44522697" src="https://github.com/user-attachments/assets/28714852-3f70-41c6-8dd6-48e433ddd235" />
 
-### Mi laboratorio para aprender a ser Sysadmin Junior
 
-<img width="80%" alt="Homelab banner" src="https://github.com/user-attachments/assets/1e71fbdc-1324-48e5-b2eb-f9e6c14a07c9" />
+### De instalar a mano → a automatizar como en producción
 
-<br><br>
 
-## ¿Qué estoy aprendiendo?
+*Proyecto personal para aprender administración de sistemas desde cero*
 
-**1. VirtualBox (base para luego usar Proxmox)**<br>
-Crear máquinas virtuales dentro de mi PC, como si tuviera varios ordenadores en uno. Es el primer paso antes de montar un servidor real con Proxmox.
-
-**2. Linux Debian 13**<br>
-El sistema operativo que usan la mayoría de servidores. Aprendo a instalarlo, actualizarlo y manejarlo desde terminal.
-
-**3. SSH y terminal**<br>
-Conectarme a mis máquinas sin pantalla, como se hace en empresas, usando Windows Terminal.
-
-**4. Ansible**<br>
-Escribir "playbooks" para instalar programas y configurar usuarios en todas las máquinas a la vez, sin entrar una por una.
-
-**5. Terraform**<br>
-Escribir una "receta" en código para crear máquinas virtuales automáticamente (primero en VirtualBox, luego en Proxmox).
-
-**6. Git y GitHub**<br>
-Guardar todo mi código y documentar el progreso, para tener portfolio.
-
-<br>
-
-### Herramientas que uso
-
-VirtualBox · Debian · Windows Terminal · Git · GitHub  
-**Próximamente:** Ansible · Terraform · Proxmox VE
-
-<br>
-
-## ¿Por qué este proyecto?
-
-Quiero pasar de instalar todo a mano a hacerlo con código, como se hace en empresas.
+[![Status](https://img.shields.io/badge/Estado-En%20construcción-yellow)](https://github.com/togurr95/homelab-as-code)
+[![Linux](https://img.shields.io/badge/OS-Debian%2013-red)](https://debian.org)
+[![Made with](https://img.shields.io/badge/Made%20with-VirtualBox-blue)](https://virtualbox.org)
 
 </div>
+
+---
+
+## 🎯 ¿Qué estoy aprendiendo?
+
+> No es un laboratorio perfecto, es mi cuaderno de prácticas.
+
+**1. Virtualización con VirtualBox**
+Primero aprendo a crear máquinas virtuales en mi PC. Es el gimnasio antes de saltar a Proxmox VE en un servidor real.
+
+**2. Linux Debian 13 (Bookworm/Trixie)**
+Instalación mínima, gestión por terminal, usuarios, permisos, systemd y redes. La base de cualquier sysadmin.
+
+**3. Acceso remoto con SSH**
+Conectarme desde Windows Terminal sin usar la pantalla de VirtualBox, como se trabaja en empresas.
+
+**4. Ansible**
+Automatizar configuración: instalar paquetes, crear usuarios y desplegar servicios con playbooks en YAML.
+
+**5. Terraform**
+Definir infraestructura como código. Empezaré con VirtualBox y migraré a Proxmox cuando tenga hardware.
+
+**6. Git y GitHub**
+Versionar todo. Cada cambio es un commit, cada práctica es documentación.
+
+## 🛠️ Stack actual
+
+| Capa | Herramienta | Estado |
+| :--- | :--- | :--- |
+| Virtualización | **VirtualBox 7.x** | ✅ En uso |
+| Sistema Operativo | **Debian 13** | ✅ Instalando |
+| Terminal | Windows Terminal + SSH | ✅ |
+| Control de versiones | Git + GitHub | ✅ |
+| Configuración | **Ansible** | 🔜 Próximo |
+| IaC | **Terraform** | 🔜 Próximo |
+| Hipervisor real | **Proxmox VE** | 🔜 Fase 2 |
+
+## 🗺️ Roadmap
+
+- [x] Crear repositorio y documentación
+- [x] Instalar VirtualBox
+- [x] Primera VM Debian (lab-1)
+- [ ] Configurar SSH y acceso sin contraseña
+- [ ] Primer playbook Ansible: actualizar sistema
+- [ ] Segundo playbook: instalar Nginx
+- [ ] Migrar a Terraform para crear VMs
+- [ ] Instalar Proxmox en hardware dedicado
 
 Paso 1: Descargar e instalar VirtualBox: https://www.virtualbox.org/
 
