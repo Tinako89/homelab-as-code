@@ -160,6 +160,15 @@ Todos los ficheros en una partición.
 
 <img width="799" height="668" alt="Captura de pantalla 2026-06-05 203203" src="https://github.com/user-attachments/assets/c36c7997-3a14-453d-ad93-d9f89808e9c3" />
 
+Finalizamos los cambios del particionado.
+
+<img width="801" height="671" alt="Captura de pantalla 2026-06-05 203231" src="https://github.com/user-attachments/assets/9b2213fe-e2bb-4098-847a-cb4c866fd3f2" />
+
+Escribimos los cambios.
+
+
+
+
 
 
 
