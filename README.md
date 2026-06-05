@@ -98,7 +98,12 @@ Damos click en el botón de iniciar.
 
 <img width="995" height="775" alt="Captura de pantalla 2026-06-05 193952" src="https://github.com/user-attachments/assets/f74133ec-8753-46de-b8ea-2ee7a7bd0f82" />
 
-Paso 4: Instalar Debian.
+Paso 4: Instalar Debian. 
+
+Elegimos la segunda opción, NO instalaremos por interfaz gráfica.
+
+<img width="638" height="549" alt="Captura de pantalla 2026-06-05 202206" src="https://github.com/user-attachments/assets/412ea7f9-35ad-45e3-8c0e-221cc09d418e" />
+
 
 
 
