@@ -18,7 +18,7 @@ Paso 2: Descargar el sistema operativo: https://www.debian.org/download
 
 <img width="1750" height="668" alt="Captura de pantalla 2026-06-05 022952" src="https://github.com/user-attachments/assets/1202d04a-b70f-4560-8128-e0d341bd5e43" />
 
-Vamos a crear nuestra máquina virtual.
+Paso 3: Vamos a crear nuestra máquina virtual.
 
 Arriba a la izquierda, pulsa Nueva
 
