@@ -92,6 +92,12 @@ Tamaño: 20 GB
 
 Paso 4: Instalar Debian.
 
+Damos click en el botón de iniciar.
+
+<img width="995" height="775" alt="Captura de pantalla 2026-06-05 193952" src="https://github.com/user-attachments/assets/f74133ec-8753-46de-b8ea-2ee7a7bd0f82" />
+
+
+
 
 
 
