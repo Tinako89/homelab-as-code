@@ -232,6 +232,16 @@ Nombre: VirtualBox Host-Only Ethernet Adapter (o vboxnet0)
 
 Arrancamos Debian y ponemos la IP fija, entramos como tinako y ``sudo nano /etc/network/interfaces``
 
+<img width="897" height="415" alt="Captura de pantalla 2026-06-06 005431" src="https://github.com/user-attachments/assets/dec7fdfd-b28f-4077-af67-2ebf2ce0a578" />
+
+Añade al final exactamente esto: 
+
+auto enp0s8
+iface enp0s8 inet static
+    address 192.168.56.101
+    netmask 255.255.255.0
+
+
 
 
 
