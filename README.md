@@ -1,2 +1,9 @@
-# homelab-as-code
-Mi homelab automatizado con Proxmox, Terraform y Ansible - portfolio sysadmin junior
+# Homelab-as-Code
+
+Proyecto para aprender a ser Sysadmin Junior.
+
+## Problema
+Montar máquinas en Proxmox a mano es lento.
+
+## Objetivo
+Usar Terraform y Ansible para crearlas solas.
