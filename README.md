@@ -71,33 +71,26 @@ Paso 2: Descargar el sistema operativo: https://www.debian.org/download
 
 Paso 3: Vamos a crear nuestra máquina virtual.
 
-Arriba a la izquierda, pulsa Nueva
+Arriba a la izquierda, pulsa Nueva.
+Nombre: lab-debian-01.
+Tipo: Linux.
+ISO: La imágen ISO que hemos descargado anteriormente.
+Versión: Debian (64-bit)
 
-Nombre: lab-1
+<img width="1025" height="583" alt="Captura de pantalla 2026-06-05 192106" src="https://github.com/user-attachments/assets/0381885c-6e45-42a2-be32-13f778be4bec" />
 
-Tipo: Linux
+Memoria dejar en 2048 MB, añade si quieres dos núcleos.
 
-Versión: Debian (64-bit) → Siguiente
+<img width="1028" height="585" alt="Captura de pantalla 2026-06-05 192227" src="https://github.com/user-attachments/assets/cf490cd9-693b-441c-93d0-22d8a12d3e9b" />
 
-Memoria dejar en 2048 MB (2 GB) → Siguiente
+Crear un disco duro virtual ahora.
+Tipo: VDI. 
+Reservado dinámicamente. 
+Tamaño: 20 GB
 
-Crear un disco duro virtual ahora → Crear
+<img width="1028" height="580" alt="Captura de pantalla 2026-06-05 192318" src="https://github.com/user-attachments/assets/8a994636-eeaa-4bf6-aa7f-a008a4eeb9e2" />
 
-Tipo: VDI → Siguiente
 
-Reservado dinámicamente → Siguiente
-
-Tamaño: 20 GB → Crear
-
-ISO
-
-Selecciona lab-1 → Configuración → Almacenamiento
-
-En "Controlador IDE", clic en el disco vacío → a la derecha, icono de CD → Elegir archivo de disco
-
-Busca tu debian-13...-netinst.iso en Descargas → Abrir → Aceptar
-
-Pulsa Iniciar. Verás el instalador de Debian en texto.
 
 
 
