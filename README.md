@@ -3,9 +3,28 @@
 Mi laboratorio para aprender a ser Sysadmin Junior.
 
 ## ¿Qué estoy aprendiendo?
-- **Proxmox**: crear máquinas virtuales con VirtualBox dentro de mi PC.
-- **Terraform**: escribir una "receta" para crear esas máquinas automáticamente.
-- **Ansible**: configurarlas todas a la vez sin entrar una por una.
+
+**1. VirtualBox (base para luego usar Proxmox)**
+> Crear máquinas virtuales dentro de mi PC, como si tuviera varios ordenadores en uno. Es el primer paso antes de montar un servidor real con Proxmox.
+
+**2. Linux Debian 13**
+> El sistema operativo que usan la mayoría de servidores. Aprendo a instalarlo, actualizarlo y manejarlo desde terminal.
+
+**3. SSH y terminal**
+> Conectarme a mis máquinas sin pantalla, como se hace en empresas, usando Windows Terminal.
+
+**4. Ansible**
+> Escribir "playbooks" para instalar programas y configurar usuarios en todas las máquinas a la vez, sin entrar una por una.
+
+**5. Terraform**
+> Escribir una "receta" en código para crear máquinas virtuales automáticamente (primero en VirtualBox, luego en Proxmox).
+
+**6. Git y GitHub**
+> Guardar todo mi código y documentar el progreso, para tener portfolio.
+
+### Herramientas que uso
+- VirtualBox · Debian · Windows Terminal · Git · GitHub
+- Próximamente: Ansible · Terraform · Proxmox VE
 
 ## ¿Por qué este proyecto?
 Quiero pasar de instalar todo a mano a hacerlo con código, como se hace en empresas.
