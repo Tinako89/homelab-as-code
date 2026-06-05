@@ -10,7 +10,7 @@ Mi laboratorio para aprender a ser Sysadmin Junior.
 ## ¿Por qué este proyecto?
 Quiero pasar de instalar todo a mano a hacerlo con código, como se hace en empresas.
 
-Paso 1: Descargar e instalar Virtual Box: https://www.virtualbox.org/
+Paso 1: Descargar e instalar VirtualBox: https://www.virtualbox.org/
 
 <img width="1912" height="834" alt="Captura de pantalla 2026-06-05 023133" src="https://github.com/user-attachments/assets/f32ec28f-e79c-460d-91dd-b7564d9929cd" />
 
