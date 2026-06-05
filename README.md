@@ -217,7 +217,16 @@ instalaremos las siguientes herramientas. ssh, curl, vim y net-tools ``sudo apt 
 <img width="903" height="817" alt="Captura de pantalla 2026-06-05 232644" src="https://github.com/user-attachments/assets/6ec4439d-a882-4c2b-8ff3-13de057326a8" />
 
 Apagamos la máquina virtual con el comando ``poweroff`` y configuramos lo siguiente:
-En VirtualBox añade la red interna 
+
+En VirtualBox añade la red interna, Selecciona lab-debian-1 → Configuración → Red
+
+Adaptador 1: déjalo en NAT (para internet)
+
+<img width="862" height="498" alt="Captura de pantalla 2026-06-06 004524" src="https://github.com/user-attachments/assets/7ad63088-b83f-42ca-b17c-917b2ff4493c" />
+
+Adaptador 2: marca "Habilitar adaptador de red" 
+Conectado a: Adaptador solo-anfitrión
+Nombre: VirtualBox Host-Only Ethernet Adapter (o vboxnet0)
 
 
 
