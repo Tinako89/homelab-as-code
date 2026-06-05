@@ -75,7 +75,7 @@ Arriba a la izquierda, pulsa Nueva.
 
 <img width="782" height="701" alt="Captura de pantalla 2026-06-05 200434" src="https://github.com/user-attachments/assets/4c1bddea-223d-4eba-957a-6cb31f81d180" />
 
-Nombre: lab-debian-01.
+Nombre: lab-debian-1
 Tipo: Linux.
 ISO: La imágen ISO que hemos descargado anteriormente.
 Versión: Debian (64-bit)
