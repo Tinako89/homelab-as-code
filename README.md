@@ -251,7 +251,7 @@ Todo correcto, Tenemos exactamente lo que tiene un servidor real: una interfaz p
 
 <img width="979" height="343" alt="Captura de pantalla 2026-06-06 011208" src="https://github.com/user-attachments/assets/ba74787d-e1ac-478e-9201-329a70658a2c" />
 
-Vamos a realizar una pruebas final, desde windows concectarnos a SSH ``ssh tinako@192.168.56.101``
+Vamos a realizar una prueba final, desde Windows concectarnos por SSH ``ssh tinako@192.168.56.101``
 
 Conectado por SSH desde Windows PowerShell a tu servidor Debian. Exactamente como lo hace un admin en producción con AWS, Azure o un datacenter.
 
