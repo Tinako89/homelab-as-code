@@ -1,35 +1,47 @@
+<div align="center">
+
 # Homelab-as-Code
 
-Mi laboratorio para aprender a ser Sysadmin Junior.
+### Mi laboratorio para aprender a ser Sysadmin Junior
 
-<img width="766" height="265" alt="Screenshot 2026-06-05 at 03-03-31 Meta AI" src="https://github.com/user-attachments/assets/373db253-0e07-4f8e-85e3-e442d0f367ad" />
+<img width="80%" alt="Homelab banner" src="https://github.com/user-attachments/assets/1e71fbdc-1324-48e5-b2eb-f9e6c14a07c9" />
+
+<br><br>
 
 ## ¿Qué estoy aprendiendo?
 
-**1. VirtualBox (base para luego usar Proxmox)**
-> Crear máquinas virtuales dentro de mi PC, como si tuviera varios ordenadores en uno. Es el primer paso antes de montar un servidor real con Proxmox.
+**1. VirtualBox (base para luego usar Proxmox)**<br>
+Crear máquinas virtuales dentro de mi PC, como si tuviera varios ordenadores en uno. Es el primer paso antes de montar un servidor real con Proxmox.
 
-**2. Linux Debian 13**
-> El sistema operativo que usan la mayoría de servidores. Aprendo a instalarlo, actualizarlo y manejarlo desde terminal.
+**2. Linux Debian 13**<br>
+El sistema operativo que usan la mayoría de servidores. Aprendo a instalarlo, actualizarlo y manejarlo desde terminal.
 
-**3. SSH y terminal**
-> Conectarme a mis máquinas sin pantalla, como se hace en empresas, usando Windows Terminal.
+**3. SSH y terminal**<br>
+Conectarme a mis máquinas sin pantalla, como se hace en empresas, usando Windows Terminal.
 
-**4. Ansible**
-> Escribir "playbooks" para instalar programas y configurar usuarios en todas las máquinas a la vez, sin entrar una por una.
+**4. Ansible**<br>
+Escribir "playbooks" para instalar programas y configurar usuarios en todas las máquinas a la vez, sin entrar una por una.
 
-**5. Terraform**
-> Escribir una "receta" en código para crear máquinas virtuales automáticamente (primero en VirtualBox, luego en Proxmox).
+**5. Terraform**<br>
+Escribir una "receta" en código para crear máquinas virtuales automáticamente (primero en VirtualBox, luego en Proxmox).
 
-**6. Git y GitHub**
-> Guardar todo mi código y documentar el progreso, para tener portfolio.
+**6. Git y GitHub**<br>
+Guardar todo mi código y documentar el progreso, para tener portfolio.
+
+<br>
 
 ### Herramientas que uso
-- VirtualBox · Debian · Windows Terminal · Git · GitHub
-- Próximamente: Ansible · Terraform · Proxmox VE
+
+VirtualBox · Debian · Windows Terminal · Git · GitHub  
+**Próximamente:** Ansible · Terraform · Proxmox VE
+
+<br>
 
 ## ¿Por qué este proyecto?
+
 Quiero pasar de instalar todo a mano a hacerlo con código, como se hace en empresas.
+
+</div>
 
 Paso 1: Descargar e instalar VirtualBox: https://www.virtualbox.org/
 
