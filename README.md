@@ -246,7 +246,7 @@ Reiniciamos la red.
 
 <img width="581" height="183" alt="Captura de pantalla 2026-06-06 010850" src="https://github.com/user-attachments/assets/27c8f2ab-bd60-4521-b92b-ff136d3d38c6" />
 
-Comprobamos las de 2 IPs: ``ip -4 a show enp0s8`` y ``ip -4 a show enp0s3``
+Comprobamos las 2 IPs: ``ip -4 a show enp0s8`` y ``ip -4 a show enp0s3``
 Todo correcto, Tenemos exactamente lo que tiene un servidor real: una interfaz pública/NAT para salir a internet y una privada para que tú entres.
 
 <img width="979" height="343" alt="Captura de pantalla 2026-06-06 011208" src="https://github.com/user-attachments/assets/ba74787d-e1ac-478e-9201-329a70658a2c" />
