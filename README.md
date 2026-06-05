@@ -144,7 +144,7 @@ Contraseña de nuestro usuario.
 
 <img width="798" height="672" alt="Captura de pantalla 2026-06-05 202936" src="https://github.com/user-attachments/assets/ed406a82-1a48-4dc4-a286-51b662138c5c" />
 
-Zona horaria deseada.
+Nuestra zona horaria.
 
 <img width="799" height="673" alt="Captura de pantalla 2026-06-05 203009" src="https://github.com/user-attachments/assets/6cba2ed2-6897-48ac-81db-8849fe87bd82" />
 
