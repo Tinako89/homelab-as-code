@@ -112,7 +112,7 @@ Ubicación y zona horaria.
 
 <img width="800" height="671" alt="Captura de pantalla 2026-06-05 202345" src="https://github.com/user-attachments/assets/0d895aaa-6670-45a6-9048-13783158579c" />
 
-idioma de nuestro teclado.
+Idioma de nuestro teclado.
 
 <img width="798" height="671" alt="Captura de pantalla 2026-06-05 202429" src="https://github.com/user-attachments/assets/dab749b0-9bec-491a-a692-9e2a86b5338d" />
 
@@ -120,7 +120,7 @@ Nombre de la máquina.
 
 <img width="799" height="672" alt="Captura de pantalla 2026-06-05 202554" src="https://github.com/user-attachments/assets/14e1d748-c1d8-4b8e-9744-80ce69f07d0a" />
 
-Nombre de dominio lo dejamos en blanco.
+En nombre de dominio lo dejamos en vacio.
 
 <img width="798" height="674" alt="Captura de pantalla 2026-06-05 202624" src="https://github.com/user-attachments/assets/ec1b8adc-8aab-4727-aee0-c7aca3e59f82" />
 
@@ -168,7 +168,7 @@ Escribimos los cambios.
 
 <img width="798" height="674" alt="Captura de pantalla 2026-06-05 203310" src="https://github.com/user-attachments/assets/96b51574-3f1b-4e9d-ab09-edeb8f97af75" />
 
-Instalando sistema base.
+Instalando sistema base...
 
 <img width="800" height="672" alt="Captura de pantalla 2026-06-05 203350" src="https://github.com/user-attachments/assets/50576d34-375b-4bb8-8e5e-b7c1202a0196" />
 
