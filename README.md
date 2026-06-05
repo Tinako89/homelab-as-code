@@ -257,7 +257,7 @@ Conectado por SSH desde Windows PowerShell a tu servidor Debian. Exactamente com
 
 <img width="1115" height="577" alt="Captura de pantalla 2026-06-06 011555" src="https://github.com/user-attachments/assets/ced7eb8b-a8bf-4de3-955a-a9137d1ab05d" />
 
-Lo que acabas de hacer es el paso que separa a los que "instalan Linux" de los que administran servidores
+Lo que acabas de hacer es el paso que separa a los que "instalan Linux" de los que administran servidores.
 
 <img width="371" height="153" alt="Captura de pantalla 2026-06-06 011832" src="https://github.com/user-attachments/assets/64edbea7-46d5-4793-9a2c-376b5c5f07fc" />
 
