@@ -208,7 +208,7 @@ Vamos a darle permisos sudo al usuario tinako con el comando ``usermod -aG sudo 
 
 <img width="539" height="110" alt="Captura de pantalla 2026-06-05 232028" src="https://github.com/user-attachments/assets/48b15ed9-82d5-4971-bd05-645e3a23fb47" />
 
-Comprobamos con el comando ``id tinako`` tenemos permisos sudo.
+Comprobamos con el comando ``id tinako`` que tenemos los permisos sudo.
 
 <img width="1209" height="157" alt="Captura de pantalla 2026-06-05 232131" src="https://github.com/user-attachments/assets/ef4a50b4-518b-4d96-acf4-d9f1fc4b30d8" />
 
