@@ -236,10 +236,16 @@ Arrancamos Debian y ponemos la IP fija, entramos como tinako y ``sudo nano /etc/
 
 Añade al final exactamente esto: 
 
-auto enp0s8
-iface enp0s8 inet static
-    address 192.168.56.101
-    netmask 255.255.255.0
+<img width="234" height="114" alt="Captura de pantalla 2026-06-06 005537" src="https://github.com/user-attachments/assets/5314b8f0-1fbe-44e0-a639-f2fc22a91b38" />
+
+Guarda: Ctrl+O, Enter, Ctrl+X
+
+<img width="760" height="509" alt="Captura de pantalla 2026-06-06 005753" src="https://github.com/user-attachments/assets/fe37b633-b0cd-4308-9acb-b788bceadec3" />
+
+Reiniciamos la red.
+
+
+
 
 
 
