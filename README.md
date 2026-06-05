@@ -2,6 +2,8 @@
 
 Mi laboratorio para aprender a ser Sysadmin Junior.
 
+<img width="766" height="265" alt="Screenshot 2026-06-05 at 03-03-31 Meta AI" src="https://github.com/user-attachments/assets/373db253-0e07-4f8e-85e3-e442d0f367ad" />
+
 ## ¿Qué estoy aprendiendo?
 
 **1. VirtualBox (base para luego usar Proxmox)**
