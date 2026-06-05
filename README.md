@@ -228,6 +228,13 @@ Adaptador 2: marca "Habilitar adaptador de red"
 Conectado a: Adaptador solo-anfitrión
 Nombre: VirtualBox Host-Only Ethernet Adapter (o vboxnet0)
 
+<img width="865" height="497" alt="Captura de pantalla 2026-06-06 005035" src="https://github.com/user-attachments/assets/583efc09-a051-4390-959c-0550be326b2e" />
+
+Arrancamos Debian y ponemos la IP fija, entramos como tinako y ``sudo nano /etc/network/interfaces``
+
+
+
+
 
 
 
