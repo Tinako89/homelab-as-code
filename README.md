@@ -216,7 +216,7 @@ instalaremos las siguientes herramientas. ssh, curl, vim y net-tools ``sudo apt 
 
 <img width="903" height="817" alt="Captura de pantalla 2026-06-05 232644" src="https://github.com/user-attachments/assets/6ec4439d-a882-4c2b-8ff3-13de057326a8" />
 
-Apagamos la máquina virtual con el comando ``poweroff`` y configuramos los siguiente.
+Apagamos la máquina virtual con el comando ``poweroff`` y configuramos los siguiente:
 En VirtualBox añade la red interna 
 
 
