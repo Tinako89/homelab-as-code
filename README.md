@@ -166,6 +166,56 @@ Finalizamos los cambios del particionado.
 
 Escribimos los cambios.
 
+<img width="798" height="674" alt="Captura de pantalla 2026-06-05 203310" src="https://github.com/user-attachments/assets/96b51574-3f1b-4e9d-ab09-edeb8f97af75" />
+
+Instalando sistema base.
+
+<img width="800" height="672" alt="Captura de pantalla 2026-06-05 203350" src="https://github.com/user-attachments/assets/50576d34-375b-4bb8-8e5e-b7c1202a0196" />
+
+Aquí decimos que no queremos participar en la encuesta.
+
+<img width="800" height="669" alt="Captura de pantalla 2026-06-05 203544" src="https://github.com/user-attachments/assets/b19dc6ce-b38d-4392-b057-d6ff10389707" />
+
+Instalamos únicamente SSH Server y utilidades del sistema, marcamos y desmarcamos con la barra espaciadora.
+
+<img width="799" height="673" alt="Captura de pantalla 2026-06-05 203739" src="https://github.com/user-attachments/assets/d87c2bcb-65e5-4e4c-bf72-59deb16b463c" />
+
+¿Instalar el GRUB en el arranque principal? decimos que sí.
+
+<img width="795" height="671" alt="Captura de pantalla 2026-06-05 203841" src="https://github.com/user-attachments/assets/c2497b05-8f9b-4765-b38d-52fa7156fbe9" />
+
+Se instalará en nuestro disco duro /dev/sda que es la primera unidad de disco duro.
+
+<img width="795" height="672" alt="Captura de pantalla 2026-06-05 203906" src="https://github.com/user-attachments/assets/dd9ee78c-66bf-4369-be41-3eefbe42d69c" />
+
+Finalizando la instalación...
+
+<img width="797" height="670" alt="Captura de pantalla 2026-06-05 203938" src="https://github.com/user-attachments/assets/788aa6a8-8c3a-4788-a49e-424421697b4e" />
+
+Damos en continuar y se reiniciará el sistema.
+
+<img width="798" height="672" alt="Captura de pantalla 2026-06-05 204005" src="https://github.com/user-attachments/assets/4c8c8a05-6837-4655-9b64-d1dd163696cf" />
+
+Felicidades, acabas de instalar Debian 13 en VirtualBox.
+
+<img width="536" height="276" alt="Captura de pantalla 2026-06-05 204103" src="https://github.com/user-attachments/assets/fb05b81d-38c9-49c3-be96-978a4fbc1b73" />
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
