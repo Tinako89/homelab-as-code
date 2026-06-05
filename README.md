@@ -200,6 +200,25 @@ Felicidades, acabas de instalar Debian 13 en VirtualBox.
 
 <img width="536" height="276" alt="Captura de pantalla 2026-06-05 204103" src="https://github.com/user-attachments/assets/fb05b81d-38c9-49c3-be96-978a4fbc1b73" />
 
+Con los comandos ``sudo apt update && sudo apt upgrade -y`` Actualizamos la lista de paquetes disponibles y luego instala automáticamente todas las actualizaciones disponibles del sistema.
+
+<img width="655" height="200" alt="Captura de pantalla 2026-06-05 231311" src="https://github.com/user-attachments/assets/5ca230be-a059-4b6c-944c-a6bdb8edda3e" />
+
+Vamos a darle permisos sudo al usuario tinako con el comando ``usermod -aG sudo tinako`` si ese comando falla probar este ``/usr/sbin/usermod -aG sudo tinako`` 
+
+<img width="539" height="110" alt="Captura de pantalla 2026-06-05 232028" src="https://github.com/user-attachments/assets/48b15ed9-82d5-4971-bd05-645e3a23fb47" />
+
+Comprobamos con el comando ``id tinako`` tenemos permisos sudo.
+
+<img width="1209" height="157" alt="Captura de pantalla 2026-06-05 232131" src="https://github.com/user-attachments/assets/ef4a50b4-518b-4d96-acf4-d9f1fc4b30d8" />
+
+instalaremos las siguientes herramientas. ssh, curl, vim y net-tools ``sudo apt install -y openssh-server curl vim net-tools``
+
+<img width="903" height="817" alt="Captura de pantalla 2026-06-05 232644" src="https://github.com/user-attachments/assets/6ec4439d-a882-4c2b-8ff3-13de057326a8" />
+
+Apagamos la máquina virtual con el comando ``poweroff`` y configuramos los siguiente.
+En VirtualBox añade la red interna 
+
 
 
 
