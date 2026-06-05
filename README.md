@@ -240,9 +240,28 @@ Añade al final exactamente esto:
 
 Guarda: Ctrl+O, Enter, Ctrl+X
 
-<img width="760" height="509" alt="Captura de pantalla 2026-06-06 005753" src="https://github.com/user-attachments/assets/fe37b633-b0cd-4308-9acb-b788bceadec3" />
+<img width="622" height="415" alt="Captura de pantalla 2026-06-06 010727" src="https://github.com/user-attachments/assets/844b5c44-2829-4efb-bedf-5fa5b4df8d07" />
 
 Reiniciamos la red.
+
+<img width="581" height="183" alt="Captura de pantalla 2026-06-06 010850" src="https://github.com/user-attachments/assets/27c8f2ab-bd60-4521-b92b-ff136d3d38c6" />
+
+Comprobamos las de 2 IPs: ``ip -4 a show enp0s8`` y ``ip -4 a show enp0s3``
+Todo correcto, Tenemos exactamente lo que tiene un servidor real: una interfaz pública/NAT para salir a internet y una privada para que tú entres.
+
+<img width="979" height="343" alt="Captura de pantalla 2026-06-06 011208" src="https://github.com/user-attachments/assets/ba74787d-e1ac-478e-9201-329a70658a2c" />
+
+Vamos a realizar una pruebas final, desde windows concectarnos a SSH ``ssh tinako@192.168.56.101``
+
+Conectado por SSH desde Windows PowerShell a tu servidor Debian. Exactamente como lo hace un admin en producción con AWS, Azure o un datacenter.
+
+<img width="1115" height="577" alt="Captura de pantalla 2026-06-06 011555" src="https://github.com/user-attachments/assets/ced7eb8b-a8bf-4de3-955a-a9137d1ab05d" />
+
+Lo que acabas de hacer es el paso que separa a los que "instalan Linux" de los que administran servidores
+
+<img width="371" height="153" alt="Captura de pantalla 2026-06-06 011832" src="https://github.com/user-attachments/assets/64edbea7-46d5-4793-9a2c-376b5c5f07fc" />
+
+
 
 
 
