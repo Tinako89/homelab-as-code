@@ -18,8 +18,6 @@
 
 ## 🎯 ¿Qué estoy aprendiendo?
 
-> No es un laboratorio perfecto, es mi cuaderno de prácticas.
-
 **1. Virtualización con VirtualBox**
 Primero aprendo a crear máquinas virtuales en mi PC. Es el gimnasio antes de saltar a Proxmox VE en un servidor real.
 
