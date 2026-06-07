@@ -198,7 +198,7 @@ Felicidades, acabas de instalar Debian 13 en VirtualBox.
 
 <img width="536" height="276" alt="Captura de pantalla 2026-06-05 204103" src="https://github.com/user-attachments/assets/fb05b81d-38c9-49c3-be96-978a4fbc1b73" />
 
-Lo primero que vamos a hacer es logear con el usuario root e instalar sudo ``apt install sudo``
+Lo primero que vamos a hacer es logear con el usuario root e instalar sudo ``apt install sudo`` nos permitirá ejecutar comandos con permisos de administrador.
 
 <img width="486" height="175" alt="Captura de pantalla 2026-06-07 224829" src="https://github.com/user-attachments/assets/07894cbe-3f3c-4bc5-874f-38627a9b5eae" />
 
