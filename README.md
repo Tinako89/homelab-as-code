@@ -198,6 +198,12 @@ Felicidades, acabas de instalar Debian 13 en VirtualBox.
 
 <img width="536" height="276" alt="Captura de pantalla 2026-06-05 204103" src="https://github.com/user-attachments/assets/fb05b81d-38c9-49c3-be96-978a4fbc1b73" />
 
+Lo primero que vamos a hacer es logear con el usuario root e instalar sudo ``apt install sudo``
+
+<img width="486" height="175" alt="Captura de pantalla 2026-06-07 224829" src="https://github.com/user-attachments/assets/07894cbe-3f3c-4bc5-874f-38627a9b5eae" />
+
+<img width="781" height="449" alt="Captura de pantalla 2026-06-07 224507" src="https://github.com/user-attachments/assets/ed74155d-31ab-483e-996a-bbc448f9ed4e" />
+
 Con los comandos ``sudo apt update && sudo apt upgrade -y`` Actualizamos la lista de paquetes disponibles y luego instala automáticamente todas las actualizaciones disponibles del sistema.
 
 <img width="655" height="200" alt="Captura de pantalla 2026-06-05 231311" src="https://github.com/user-attachments/assets/5ca230be-a059-4b6c-944c-a6bdb8edda3e" />
