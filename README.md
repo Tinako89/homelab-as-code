@@ -321,24 +321,6 @@ Creamos el playbook con ``cd ~/ansible-lab`` y ``nano web.yml``
 <img width="459" height="81" alt="Captura de pantalla 2026-06-08 235543" src="https://github.com/user-attachments/assets/f91a767c-d910-4fc6-9bcb-1f7f16e5bd40" />
 
 Dentro de nuestro nano .yml copiamos y pegamos el siguiente código (Conecta a Debian, instala Nginx con apt y lo deja arrancado y activado al inicio.)
-
----
-- hosts: web
-  become: yes
-  tasks:
-    - name: Instalar Nginx
-      apt:
-        name: nginx
-        state: present
-        update_cache: yes
-
-    - name: Arrancar Nginx
-      service:
-        name: nginx
-        state: started
-        enabled: yes
-
-
 Guarda: Ctrl+O, Enter, Ctrl+X
       
 <img width="699" height="431" alt="Captura de pantalla 2026-06-08 235732" src="https://github.com/user-attachments/assets/a1802fc7-9ac5-4983-b5e3-6b3fc94e2de2" />
