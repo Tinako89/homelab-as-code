@@ -166,7 +166,7 @@ Escribimos los cambios.
 
 <img width="798" height="674" alt="Captura de pantalla 2026-06-05 203310" src="https://github.com/user-attachments/assets/96b51574-3f1b-4e9d-ab09-edeb8f97af75" />
 
-Instalando sistema base...
+Instalando sistema base.
 
 <img width="800" height="672" alt="Captura de pantalla 2026-06-05 203350" src="https://github.com/user-attachments/assets/50576d34-375b-4bb8-8e5e-b7c1202a0196" />
 
@@ -190,7 +190,7 @@ Finalizando la instalación.
 
 <img width="797" height="670" alt="Captura de pantalla 2026-06-05 203938" src="https://github.com/user-attachments/assets/788aa6a8-8c3a-4788-a49e-424421697b4e" />
 
-Damos en continuar y se reiniciará el sistema.
+Presionamos en continuar y se reiniciará el sistema.
 
 <img width="798" height="672" alt="Captura de pantalla 2026-06-05 204005" src="https://github.com/user-attachments/assets/4c8c8a05-6837-4655-9b64-d1dd163696cf" />
 
@@ -208,7 +208,7 @@ Con los comandos ``sudo apt update && sudo apt upgrade -y`` Actualizamos la list
 
 <img width="655" height="200" alt="Captura de pantalla 2026-06-05 231311" src="https://github.com/user-attachments/assets/5ca230be-a059-4b6c-944c-a6bdb8edda3e" />
 
-Vamos a darle permisos sudo al usuario tinako con el comando ``usermod -aG sudo tinako`` si ese comando falla probar este ``/usr/sbin/usermod -aG sudo tinako`` 
+Vamos a darle permisos sudo al usuario tinako con el comando ``usermod -aG sudo tinako`` o ``/usr/sbin/usermod -aG sudo tinako`` 
 
 <img width="539" height="110" alt="Captura de pantalla 2026-06-05 232028" src="https://github.com/user-attachments/assets/48b15ed9-82d5-4971-bd05-645e3a23fb47" />
 
