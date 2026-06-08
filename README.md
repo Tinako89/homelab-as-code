@@ -268,6 +268,59 @@ Lo que acabas de hacer es el paso que separa a los que "instalan Linux" de los q
 Nivel 2: Automatización.
 Toca instalar WSL en tu Windows, metemos Ansible, y con UN comando instalamos Nginx en ese Debian y lo dejamos sirviendo una página en http://192.168.56.101.
 
+Instalamos WSL con el siguiente comando ``wsl --install -d Ubuntu`` 
+
+<img width="1109" height="621" alt="Captura de pantalla 2026-06-08 232606" src="https://github.com/user-attachments/assets/ee35f181-4ae6-47a3-9f55-878a3dba2ab8" />
+
+Ejecutamos ``wsl -d Ubuntu`` y estaremos dentro.
+
+<img width="507" height="167" alt="Captura de pantalla 2026-06-08 232902" src="https://github.com/user-attachments/assets/fda64c5c-9950-4912-b42d-2693cf295be5" />
+
+Ahora, los 3 comandos que te convierten en automatizador: ``sudo apt update && sudo apt install -y ansible sshpass``
+Te pedirá tu contraseña de Ubuntu (la que acabas de crear). Escribe, pulsa Enter. Tardará 1-2 minutos.
+
+<img width="1112" height="619" alt="Captura de pantalla 2026-06-08 233249" src="https://github.com/user-attachments/assets/841e0f82-914c-4eae-b546-3926a774bb38" />
+
+Comprobamos la versión de ansible ``ansible --version`` 
+
+<img width="1083" height="192" alt="Captura de pantalla 2026-06-08 233431" src="https://github.com/user-attachments/assets/f0af42e7-3206-4363-a289-dc69b3d01a48" />
+
+Perfecto. Ahora 3 comandos y Ansible ya habla con tu Debian, En esa misma ventana de Ubuntu (WSL) Crea la llave (pulsa Enter 3 veces):
+
+``ssh-keygen -t ed25519 -N ""`` 
+
+<img width="748" height="429" alt="Captura de pantalla 2026-06-08 233839" src="https://github.com/user-attachments/assets/404ae472-9163-46d9-bae7-fb817f5ca101" />
+
+En esa misma ventana donde acabas de generar la llave, copia y pega: ``ssh-copy-id tinako@192.168.56.101`` hemos dado a tu Debian una copia de tu llave para que ya no te pida contraseña nunca más. Ahora tu Ubuntu y tu Debian se reconocen como "de confianza".
+
+<img width="1106" height="322" alt="Captura de pantalla 2026-06-08 234053" src="https://github.com/user-attachments/assets/2e3da6f4-b45b-49b5-81af-29c917378787" />
+
+Comprobamos una vez más ``ssh tinako@192.168.56.101 "hostname"`` Si te devuelve lab-debian-1 sin pedir contraseña, Ansible ya puede trabajar.
+
+<img width="733" height="85" alt="Captura de pantalla 2026-06-08 234344" src="https://github.com/user-attachments/assets/ac91d7d0-96b4-46e3-af83-284ed805499f" />
+
+Ahora vamos a lo de Ansible de verdad. Solo 2 archivos. Crear el inventario. ``mkdir -p ~/ansible-lab && cd ~/ansible-lab`` y ``nano inventory.ini`` 
+
+<img width="795" height="49" alt="Captura de pantalla 2026-06-08 234552" src="https://github.com/user-attachments/assets/6b260c7b-f18a-4bdd-968a-dfcbba24326b" />
+
+Nos enviará a Nano, copiamos y pegamos lo siguiente: ``[web]
+lab1 ansible_host=192.168.56.101 ansible_user=tinako``
+Guarda: Ctrl+O, Enter, Ctrl+X
+
+<img width="698" height="349" alt="Captura de pantalla 2026-06-08 234716" src="https://github.com/user-attachments/assets/399d7b51-8b3e-46c8-9b29-b3e52bb60d6c" />
+
+Probamos Asinble ``ansible -i inventory.ini web -m ping``
+El pong lo genera Debian por dentro y Ansible te lo trae a Ubuntu para confirmar que SSH y Python funcionan.
+
+<img width="1114" height="345" alt="Captura de pantalla 2026-06-08 234902" src="https://github.com/user-attachments/assets/647e4560-f2e5-41f9-a3aa-92ce9af5461b" />
+
+
+
+
+
+
+
+
 
 
 
