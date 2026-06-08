@@ -158,7 +158,7 @@ Todos los ficheros en una partición.
 
 <img width="799" height="668" alt="Captura de pantalla 2026-06-05 203203" src="https://github.com/user-attachments/assets/c36c7997-3a14-453d-ad93-d9f89808e9c3" />
 
-Finalizamos los cambios del particionado.
+Finalizar los cambios del particionado.
 
 <img width="801" height="671" alt="Captura de pantalla 2026-06-05 203231" src="https://github.com/user-attachments/assets/9b2213fe-e2bb-4098-847a-cb4c866fd3f2" />
 
@@ -186,7 +186,7 @@ Se instalará en nuestro disco duro /dev/sda que es la primera unidad de disco d
 
 <img width="795" height="672" alt="Captura de pantalla 2026-06-05 203906" src="https://github.com/user-attachments/assets/dd9ee78c-66bf-4369-be41-3eefbe42d69c" />
 
-Finalizando la instalación...
+Finalizando la instalación.
 
 <img width="797" height="670" alt="Captura de pantalla 2026-06-05 203938" src="https://github.com/user-attachments/assets/788aa6a8-8c3a-4788-a49e-424421697b4e" />
 
@@ -228,7 +228,7 @@ Adaptador 1: déjalo en NAT (para internet)
 
 <img width="862" height="498" alt="Captura de pantalla 2026-06-06 004524" src="https://github.com/user-attachments/assets/7ad63088-b83f-42ca-b17c-917b2ff4493c" />
 
-Adaptador 2: marca "Habilitar adaptador de red" 
+Adaptador 2: Marca "Habilitar adaptador de red" 
 Conectado a: Adaptador solo-anfitrión
 Nombre: VirtualBox Host-Only Ethernet Adapter (o vboxnet0)
 
