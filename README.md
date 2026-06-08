@@ -362,9 +362,7 @@ Resultado: si ahora recargas ``http://192.168.56.101`` ya no ves "Welcome to ngi
 Toca el turno de Usar variables (que el título cambie según el servidor)
 Así verás cómo Ansible personaliza cada servidor sin copiar archivos a mano.
 
-
-
-
+Edita index.html: ``nano ~/ansible-lab/index.html`` 
 
 
 
