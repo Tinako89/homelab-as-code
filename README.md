@@ -314,6 +314,57 @@ El pong lo genera Debian por dentro y Ansible te lo trae a Ubuntu para confirmar
 
 <img width="1114" height="345" alt="Captura de pantalla 2026-06-08 234902" src="https://github.com/user-attachments/assets/647e4560-f2e5-41f9-a3aa-92ce9af5461b" />
 
+Siguiente paso real del curso: instalar Nginx en Debian con 1 playbook, sin tocar la VM.
+
+Creamos el playbook con ``cd ~/ansible-lab`` y ``nano web.yml``
+
+<img width="459" height="81" alt="Captura de pantalla 2026-06-08 235543" src="https://github.com/user-attachments/assets/f91a767c-d910-4fc6-9bcb-1f7f16e5bd40" />
+
+Dentro de nuestro nano yml copiamos y pegamos el siguiente codigo (Conecta a Debian, instala Nginx con apt y lo deja arrancado y activado al inicio.)
+
+---
+- hosts: web
+  become: yes
+  tasks:
+    - name: Instalar Nginx
+      apt:
+        name: nginx
+        state: present
+        update_cache: yes
+
+    - name: Arrancar Nginx
+      service:
+        name: nginx
+        state: started
+        enabled: yes
+
+
+Guarda: Ctrl+O, Enter, Ctrl+X
+      
+<img width="699" height="431" alt="Captura de pantalla 2026-06-08 235732" src="https://github.com/user-attachments/assets/a1802fc7-9ac5-4983-b5e3-6b3fc94e2de2" />
+
+Ejecutamos ``ansible-playbook -i inventory.ini web.yml -K``y pon la contraseña de Debian cuando te la pida. lo que hará este comando es: Lee web.yml, se conecta a Debian por SSH usando inventory.ini, y ejecuta las tareas en orden.
+
+<img width="1107" height="413" alt="Captura de pantalla 2026-06-09 000339" src="https://github.com/user-attachments/assets/c63bd175-17fd-45ee-8bba-5006144e1cd8" />
+
+Ahora prueba en tu Windows: abre el navegador y ve a ``http://192.168.56.101`` Deberías ver la página "Welcome to nginx!"
+
+<img width="645" height="363" alt="Captura de pantalla 2026-06-09 000505" src="https://github.com/user-attachments/assets/5a7d4b93-8fa1-4ecb-8492-e584ee85b3c2" />
+
+Acabas de hacer con Ansible lo que normalmente harías a mano en Debian:
+
+    conectaste desde Ubuntu
+    instalaste Nginx
+    lo dejaste corriendo
+
+Y todo con un solo comando. Eso es automatización. El "No seguro" es normal, es http sin certificado. No pasa nada en tu lab.
+
+
+
+
+
+
+      
 
 
 
