@@ -320,7 +320,7 @@ Creamos el playbook con ``cd ~/ansible-lab`` y ``nano web.yml``
 
 <img width="459" height="81" alt="Captura de pantalla 2026-06-08 235543" src="https://github.com/user-attachments/assets/f91a767c-d910-4fc6-9bcb-1f7f16e5bd40" />
 
-Dentro de nuestro nano yml copiamos y pegamos el siguiente codigo (Conecta a Debian, instala Nginx con apt y lo deja arrancado y activado al inicio.)
+Dentro de nuestro nano .yml copiamos y pegamos el siguiente código (Conecta a Debian, instala Nginx con apt y lo deja arrancado y activado al inicio.)
 
 ---
 - hosts: web
