@@ -334,12 +334,41 @@ Ahora prueba en tu Windows: abre el navegador y ve a ``http://192.168.56.101`` D
 <img width="645" height="363" alt="Captura de pantalla 2026-06-09 000505" src="https://github.com/user-attachments/assets/5a7d4b93-8fa1-4ecb-8492-e584ee85b3c2" />
 
 Acabas de hacer con Ansible lo que normalmente harías a mano en Debian:
+Y todo con un solo comando. Eso es automatización. El "No seguro" es normal, es http sin certificado. No pasa nada en tu lab.
 
     conectaste desde Ubuntu
     instalaste Nginx
     lo dejaste corriendo
 
-Y todo con un solo comando. Eso es automatización. El "No seguro" es normal, es http sin certificado. No pasa nada en tu lab.
+Lo siguiente que vamos a hacer es "Haz que Ansible despliegue TU página, no la de Nginx." Será una página muy básica de prueba.
+
+Creamos el archivo `echo "<h1>Hola Ansible</h1>" > ~/ansible-lab/index.html` 
+
+<img width="890" height="349" alt="Captura de pantalla 2026-06-09 003056" src="https://github.com/user-attachments/assets/46c60c30-6850-459b-91c7-0973905561fd" />
+
+Editamos web.yml con nano  con el siguiente código ``nano ~/ansible-lab/web.yml``  
+
+<img width="806" height="267" alt="Captura de pantalla 2026-06-09 003225" src="https://github.com/user-attachments/assets/6bb3f962-bf88-42c6-9659-dae688778005" />
+
+Y ejecutamos ``ansible-playbook -i inventory.ini web.yml -K`` 
+Explicación: Ansible entró a lab1, no reinstaló Nginx porque ya estaba, solo copió tu "Hola Ansible" a la web y confirmó que el servicio sigue activo.
+
+<img width="1105" height="475" alt="Captura de pantalla 2026-06-09 003352" src="https://github.com/user-attachments/assets/feb2c89f-1ddd-44ec-9195-c52d8d522666" />
+
+Resultado: si ahora recargas ``http://192.168.56.101`` ya no ves "Welcome to nginx", ves "Hola Ansible".
+
+<img width="780" height="268" alt="Captura de pantalla 2026-06-09 003639" src="https://github.com/user-attachments/assets/c53b8087-e240-4ae6-aca1-eb7aae36f365" />
+
+Toca el turno de Usar variables (que el título cambie según el servidor)
+Así verás cómo Ansible personaliza cada servidor sin copiar archivos a mano.
+
+
+
+
+
+
+
+
 
 
 
