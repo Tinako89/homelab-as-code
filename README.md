@@ -362,7 +362,26 @@ Resultado: si ahora recargas ``http://192.168.56.101`` ya no ves "Welcome to ngi
 Toca el turno de Usar variables (que el título cambie según el servidor)
 Así verás cómo Ansible personaliza cada servidor sin copiar archivos a mano.
 
-Edita index.html: ``nano ~/ansible-lab/index.html`` 
+Edita index.html: ``nano ~/ansible-lab/index.html`` Guarda igual (Ctrl+O, Enter, Ctrl+X).
+
+<img width="845" height="281" alt="Captura de pantalla 2026-06-09 025938" src="https://github.com/user-attachments/assets/bce8419c-0066-42cf-93a4-2387dc4a1a80" />
+
+Ejecutamos el siguiente comando ``sed -i 's/- copy:/- template:/' web.yml`` Para que Ansible no copie el texto tal cual, sino que lo rellene con el nombre de la máquina.
+
+<img width="680" height="129" alt="Captura de pantalla 2026-06-09 030728" src="https://github.com/user-attachments/assets/951596eb-aa6c-468f-849e-ead54ab8184d" />
+
+Comprobamos que cambió ``cat web.yml`` 
+
+<img width="582" height="176" alt="Captura de pantalla 2026-06-09 030911" src="https://github.com/user-attachments/assets/faaf1f5a-370c-48c8-94e7-b0ad690c2225" />
+
+Ahora el paso final ``ansible-playbook -i inventory.ini web.yml -K`` pon la contraseña cuando te la pida, y espera al PLAY RECAP.
+
+<img width="1112" height="469" alt="Captura de pantalla 2026-06-09 031245" src="https://github.com/user-attachments/assets/9b7102e8-d223-4bd2-8ef4-e21f4525a8be" />
+
+
+
+ 
+
 
 
 
