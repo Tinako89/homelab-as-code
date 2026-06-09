@@ -394,7 +394,21 @@ Luego lanzamos el mismo playbook una vez y Ansible instala nginx y pone la web e
 
 Vamos a editar con nano el siguiente .ini ``nano inventory.ini`` ponemos lo mismo que esta imágen y guardamos con Ctrl+O → Enter → Ctrl+X
 
-<img width="782" height="259" alt="Captura de pantalla 2026-06-09 031833" src="https://github.com/user-attachments/assets/93622fb0-2994-4040-8db5-96fb99141f4c" />
+<img width="800" height="390" alt="Captura de pantalla 2026-06-09 033837" src="https://github.com/user-attachments/assets/8b366d9b-5598-4201-b2d7-9e03acd2253a" />
+
+Escribe tal cual y dale Enter: ``ansible -i inventory.ini web -m ping`` 
+lab1 ya funciona (pong) — eso es lo importante, Ansible está bien instalado.
+
+<img width="1101" height="672" alt="Captura de pantalla 2026-06-09 034131" src="https://github.com/user-attachments/assets/3580d05e-644e-46cb-9747-a752cb7b44c8" />
+
+No pasa nada, con solo lab1 puedes hacer todo el lab. Ansible no necesita 3 máquinas, volvemos a ``nano inventory.ini`` y editamos lo siguiente. Guarda: Ctrl+O → Enter → Ctrl+X
+
+<img width="761" height="272" alt="Captura de pantalla 2026-06-09 034449" src="https://github.com/user-attachments/assets/1769e73a-ba06-4e60-8eeb-a2a8deadcf0b" />
+
+Probamos otra vez ``ansible -i inventory.ini web -m ping``
+
+
+
 
 
 
