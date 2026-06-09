@@ -378,6 +378,28 @@ Ahora el paso final ``ansible-playbook -i inventory.ini web.yml -K`` pon la cont
 
 <img width="1112" height="469" alt="Captura de pantalla 2026-06-09 031245" src="https://github.com/user-attachments/assets/9b7102e8-d223-4bd2-8ef4-e21f4525a8be" />
 
+Abre el navegador con la siguiente URL ``http://192.168.56.101``
+
+Lo que acabas de hacer en una línea:
+
+    Conectaste desde el controlador a lab1 por SSH
+    Instalaste nginx
+    Subiste una plantilla y la personalizaste
+    Arrancaste el servicio
+
+<img width="715" height="206" alt="Captura de pantalla 2026-06-09 031411" src="https://github.com/user-attachments/assets/a300b6f9-a3c1-48f2-b29d-cf66abee4f17" />
+
+Ahora tienes solo lab1 en la lista. Vamos a añadir lab2 y lab3.
+Luego lanzamos el mismo playbook una vez y Ansible instala nginx y pone la web en las 3 a la vez — cada una dirá "Soy labX".
+
+Vamos a editar con nano el siguiente .ini ``nano inventory.ini`` ponemos lo mismo que esta imágen y guardamos con Ctrl+O → Enter → Ctrl+X
+
+<img width="782" height="259" alt="Captura de pantalla 2026-06-09 031833" src="https://github.com/user-attachments/assets/93622fb0-2994-4040-8db5-96fb99141f4c" />
+
+
+
+
+
 
 
  
