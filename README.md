@@ -380,6 +380,8 @@ Ahora el paso final ``ansible-playbook -i inventory.ini web.yml -K`` pon la cont
 
 Abre el navegador con la siguiente URL ``http://192.168.56.101``
 
+<img width="660" height="221" alt="Captura de pantalla 2026-06-10 054502" src="https://github.com/user-attachments/assets/f6f78c80-1078-48cb-98c7-b225ef812d02" />
+
 Lo que acabas de hacer en una línea:
 
     Conectaste desde el controlador a lab1 por SSH
