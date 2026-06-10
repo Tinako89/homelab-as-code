@@ -388,7 +388,10 @@ Lo que acabas de hacer en una línea:
     Instalaste nginx
     Subiste una plantilla y la personalizaste
     Arrancaste el servicio
+    
+Ahora vamos con el segundo playbook, que es el que deja tu Debian con usuario, firewall y updates automáticos.
 
+PASO 1: Crea la carpeta de trabajo: ``mkdir -p ~/homelab`` y ``cd ~/homelab``
 
 
 
