@@ -391,7 +391,50 @@ Lo que acabas de hacer en una línea:
     
 Ahora vamos con el segundo playbook, que es el que deja tu Debian con usuario, firewall y updates automáticos.
 
-PASO 1: Crea la carpeta de trabajo: ``mkdir -p ~/homelab`` y ``cd ~/homelab``
+PASO 1: Abre PowerShell y escribe ``wsl`` crea la carpeta de trabajo: ``mkdir -p ~/homelab`` y ``cd ~/homelab``
+
+<img width="945" height="283" alt="Captura de pantalla 2026-06-11 191609" src="https://github.com/user-attachments/assets/fd1fdb71-c424-424c-9431-66d5ae5113bd" />
+
+PASO 2: Crea el inventario (le dice a Ansible dónde está tu VM)
+
+<img width="943" height="230" alt="Captura de pantalla 2026-06-11 192356" src="https://github.com/user-attachments/assets/1d8d59fa-af6f-4a90-95ba-a7e4b44089bf" />
+
+Creamos el playbook
+
+<img width="816" height="863" alt="Captura de pantalla 2026-06-11 193159" src="https://github.com/user-attachments/assets/e4bcadfe-cb96-4806-91bc-ca0d9cd3ee18" />
+
+Comprobamos con ``ls`` y ``cat`` 
+
+<img width="608" height="154" alt="Captura de pantalla 2026-06-11 193514" src="https://github.com/user-attachments/assets/6e85e634-f852-4e54-852c-3b53dfe5325d" />
+
+Generamos la llave.
+
+<img width="945" height="144" alt="Captura de pantalla 2026-06-11 194041" src="https://github.com/user-attachments/assets/e78b334f-3a96-4207-b7fb-56082320a2bf" />
+
+La llave ya estaba instalada antes, no tenemos que hacer na más aquí.
+
+<img width="945" height="146" alt="Captura de pantalla 2026-06-11 194317" src="https://github.com/user-attachments/assets/375776d3-2407-4f56-a24a-bef370a4a9ca" />
+
+En la siguiente imágen le preguntaste a Ansible: "¿puedes entrar por SSH en mi Debian (lab1) usando la agenda inventory.ini?" y te respondió "pong" = sí puedo.
+
+<img width="799" height="145" alt="Captura de pantalla 2026-06-11 194407" src="https://github.com/user-attachments/assets/f3ae6c60-736a-457b-910f-18061783844a" />
+
+Último comando de la Fase 2, pégalo y dale Enter:
+
+Lanzaste el playbook con -K, metiste la contraseña, y Ansible configuró tu Debian sin errores (failed=0).
+
+Resultado: actualizó el sistema, te dio sudo sin password, instaló firewall y herramientas, activó UFW en modo "bloquear todo menos SSH", y dejó las actualizaciones automáticas.
+
+Fase 2 lista.
+
+<img width="956" height="665" alt="Captura de pantalla 2026-06-11 194816" src="https://github.com/user-attachments/assets/dac19711-f04b-4af8-8c9e-b0492b7beebb" />
+
+<img width="626" height="234" alt="Captura de pantalla 2026-06-11 195022" src="https://github.com/user-attachments/assets/fb9e66ff-6044-4b13-94fd-e1a236496665" />
+
+
+
+
+
 
 
 
