@@ -452,6 +452,27 @@ Portainer está vivo en https://192.168.56.101:9443
 
 <img width="518" height="114" alt="Captura de pantalla 2026-06-11 202531" src="https://github.com/user-attachments/assets/90aff777-ba4f-4dd0-8ab8-3b28eacb7228" />
 
+Vamos con Terraform, Terraform es un cuaderno de planos para tu infraestructura.
+
+Tú escribes en un archivo de texto cómo quieres que sea tu homelab: "una VM Debian, con Docker instalado, y con tres contenedores corriendo". No le dices los pasos, solo el resultado final.
+
+Terraform lee ese plano y hace tres cosas:
+
+    Mira lo que hay ahora (gracias a un archivo de estado que guarda). Sabe si ya tienes el contenedor o no.
+
+    Compara con lo que quieres. Si falta algo, lo crea. Si sobra algo, lo borra. Si cambió algo, lo actualiza.
+
+    Funciona con todo. No es solo para la nube. Tiene "conectores" para VirtualBox, Proxmox, Docker, AWS, Cloudflare... Cambias el conector y el mismo lenguaje te sirve.
+
+Diferencia con Ansible:
+
+    Ansible es para configurar lo que ya existe: instalar paquetes, poner usuarios, abrir puertos.
+    Terraform es para decidir qué existe: crear la VM, crear el contenedor, crear la red.
+
+Por eso se usan juntos: Terraform levanta las piezas, Ansible las deja listas por dentro.
+
+En tu caso, ya no tendrías que entrar a Portainer a clicar. Cambias una línea en el plano ("añadir Pi-hole"), le das a aplicar, y Terraform se encarga de que Pi-hole aparezca en tu Debian exactamente como lo escribiste. Si lo borras del plano, desaparece.
+
 
 
 
