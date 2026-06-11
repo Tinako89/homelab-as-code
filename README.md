@@ -419,9 +419,7 @@ En la siguiente imágen le preguntaste a Ansible: "¿puedes entrar por SSH en mi
 
 <img width="799" height="145" alt="Captura de pantalla 2026-06-11 194407" src="https://github.com/user-attachments/assets/f3ae6c60-736a-457b-910f-18061783844a" />
 
-Último comando de la Fase 2, pégalo y dale Enter:
-
-Lanzaste el playbook con -K, metiste la contraseña, y Ansible configuró tu Debian sin errores (failed=0).
+Último comando de la Fase 2, pégalo y dale Enter, lanzaste el playbook con -K, metiste la contraseña, y Ansible configuró tu Debian sin errores (failed=0).
 
 Fase 2 lista.
 
@@ -429,7 +427,7 @@ Fase 2 lista.
 
 <img width="626" height="234" alt="Captura de pantalla 2026-06-11 195022" src="https://github.com/user-attachments/assets/fb9e66ff-6044-4b13-94fd-e1a236496665" />
 
-
+Fase 3: instalar Docker + Portainer con Ansible (para gestionar contenedores desde web)
 
 
 
