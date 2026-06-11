@@ -428,7 +428,7 @@ Fase 2 lista.
 <img width="626" height="234" alt="Captura de pantalla 2026-06-11 195022" src="https://github.com/user-attachments/assets/fb9e66ff-6044-4b13-94fd-e1a236496665" />
 
 Fase 3: instalar Docker + Portainer con Ansible (para gestionar contenedores desde web)
-
+Objetivo: que Ansible instale Docker en tu Debian y levante Portainer, para que gestiones contenedores desde el navegador en https://192.168.56.101:9443
 
 
 
