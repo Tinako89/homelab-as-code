@@ -423,8 +423,6 @@ En la siguiente imágen le preguntaste a Ansible: "¿puedes entrar por SSH en mi
 
 Lanzaste el playbook con -K, metiste la contraseña, y Ansible configuró tu Debian sin errores (failed=0).
 
-Resultado: actualizó el sistema, te dio sudo sin password, instaló firewall y herramientas, activó UFW en modo "bloquear todo menos SSH", y dejó las actualizaciones automáticas.
-
 Fase 2 lista.
 
 <img width="956" height="665" alt="Captura de pantalla 2026-06-11 194816" src="https://github.com/user-attachments/assets/dac19711-f04b-4af8-8c9e-b0492b7beebb" />
