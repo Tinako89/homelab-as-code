@@ -428,6 +428,36 @@ En la siguiente imágen le preguntaste a Ansible: "¿puedes entrar por SSH en mi
 Fase 3: instalar Docker + Portainer con Ansible (para gestionar contenedores desde web)
 Objetivo: que Ansible instale Docker en tu Debian y levante Portainer, para que gestiones contenedores desde el navegador en https://192.168.56.101:9443
 
+Editamos el siguiente .yml con nano ``nano docker.yml`` 
+
+<img width="645" height="874" alt="Captura de pantalla 2026-06-11 201452" src="https://github.com/user-attachments/assets/ca21457c-6c73-4f1d-bf04-eb522590c983" />
+
+Ejecutamos ``ansible-playbook -i inventory.ini docker.yml``
+
+<img width="949" height="543" alt="Captura de pantalla 2026-06-11 201541" src="https://github.com/user-attachments/assets/1fb6bc85-8bcb-4e78-9f4f-496b7d7e472b" />
+
+Abrimos puertos.
+
+<img width="954" height="172" alt="Captura de pantalla 2026-06-11 202059" src="https://github.com/user-attachments/assets/5c04058f-711a-472b-99fa-3693235b3db2" />
+
+Comprueba que Portainer está corriendo.
+
+<img width="937" height="120" alt="Captura de pantalla 2026-06-11 202203" src="https://github.com/user-attachments/assets/5a34e1e3-5211-486c-9547-487abb1f5b35" />
+
+Ya abriste los puertos con UFW ahora comprobamos la siguiente url: ``https://192.168.56.101:9443``
+
+<img width="899" height="836" alt="Captura de pantalla 2026-06-11 202402" src="https://github.com/user-attachments/assets/717fe1b8-77ca-4ae3-83ab-5c61d1df84ec" />
+
+Portainer está vivo en https://192.168.56.101:9443
+
+<img width="518" height="114" alt="Captura de pantalla 2026-06-11 202531" src="https://github.com/user-attachments/assets/90aff777-ba4f-4dd0-8ab8-3b28eacb7228" />
+
+
+
+
+
+
+
 
 
 
