@@ -421,8 +421,6 @@ En la siguiente imágen le preguntaste a Ansible: "¿puedes entrar por SSH en mi
 
 Último comando de la Fase 2, pégalo y dale Enter, lanzaste el playbook con -K, metiste la contraseña, y Ansible configuró tu Debian sin errores (failed=0).
 
-Fase 2 lista.
-
 <img width="956" height="665" alt="Captura de pantalla 2026-06-11 194816" src="https://github.com/user-attachments/assets/dac19711-f04b-4af8-8c9e-b0492b7beebb" />
 
 <img width="626" height="234" alt="Captura de pantalla 2026-06-11 195022" src="https://github.com/user-attachments/assets/fb9e66ff-6044-4b13-94fd-e1a236496665" />
