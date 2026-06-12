@@ -473,6 +473,8 @@ Por eso se usan juntos: Terraform levanta las piezas, Ansible las deja listas po
 
 En tu caso, ya no tendrías que entrar a Portainer a clicar. Cambias una línea en el plano ("añadir Pi-hole"), le das a aplicar, y Terraform se encarga de que Pi-hole aparezca en tu Debian exactamente como lo escribiste. Si lo borras del plano, desaparece.
 
+PASO 1: Instalar Terraform
+
 
 
 
