@@ -524,8 +524,9 @@ Esa página que ves es tu contenedor whoami creado 100% con Terraform, desde tu 
 
 Ya tienes el ciclo completo: Ansible prepara la VM → Terraform despliega la app → tú la consumes.
 
-
 <img width="776" height="394" alt="Captura de pantalla 2026-06-12 232235" src="https://github.com/user-attachments/assets/d1cfd145-31b6-4a09-8043-730c8f9d80bf" />
+
+Instalar Proxmox en hardware dedicado
 
 
 
