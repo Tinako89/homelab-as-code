@@ -473,7 +473,71 @@ Por eso se usan juntos: Terraform levanta las piezas, Ansible las deja listas po
 
 En tu caso, ya no tendrías que entrar a Portainer a clicar. Cambias una línea en el plano ("añadir Pi-hole"), le das a aplicar, y Terraform se encarga de que Pi-hole aparezca en tu Debian exactamente como lo escribiste. Si lo borras del plano, desaparece.
 
-PASO 1: Instalar Terraform
+PASO 1: Instalar Terraform ``sudo apt install terraform -y`` 
+
+<img width="953" height="350" alt="Captura de pantalla 2026-06-12 230849" src="https://github.com/user-attachments/assets/3366f1e6-05d3-4a29-9fbe-2a4dd95f0abd" />
+
+Comprobamos la versión.
+
+<img width="395" height="63" alt="Captura de pantalla 2026-06-12 230947" src="https://github.com/user-attachments/assets/4ffcdcd3-1c0c-4b44-8104-35b877d0f109" />
+
+Abrrir el puerto 8080 en lab1 ``ansible lab1 -i ~/homelab/inventory.ini -b -m shell -a "ufw allow 8080/tcp"``
+
+<img width="909" height="82" alt="Captura de pantalla 2026-06-12 231117" src="https://github.com/user-attachments/assets/d9827c34-9dd9-4b8f-90c3-3449a87d5e5a" />
+
+Crea tu primer proyecto Terraform, creamos directorio ``mkdir -p ~/terraform-homelab`` ``cd ~/terraform-homelab`` y editamos con nano ``nano main.tf`` 
+
+<img width="508" height="85" alt="Captura de pantalla 2026-06-12 231343" src="https://github.com/user-attachments/assets/11565bf8-1ce7-4fa3-99d2-0333bff3d2a7" />
+
+Guarda: Ctrl+O → Enter → Ctrl+X
+
+<img width="1231" height="713" alt="Captura de pantalla 2026-06-12 231459" src="https://github.com/user-attachments/assets/001c0d4d-cb6c-4235-9d00-0ac26c6c7b16" />
+
+Estás en ~/terraform-homelab. Inicializa y lanza ``terraform init`` Descargará el plugin de Docker
+
+<img width="828" height="533" alt="Captura de pantalla 2026-06-12 231622" src="https://github.com/user-attachments/assets/1c1d0217-929b-445b-b361-8926ab6a6390" />
+
+Luego ejecuta ``terraform apply -auto-approve`` Al final: Apply complete! Resources: 2 added
+
+<img width="1522" height="1026" alt="Captura de pantalla 2026-06-12 231744" src="https://github.com/user-attachments/assets/9d329e0f-e522-426e-a3fc-59c6070fcc4c" />
+
+<img width="1399" height="948" alt="Captura de pantalla 2026-06-12 231812" src="https://github.com/user-attachments/assets/52aee020-b254-4959-ad4f-4fe56f16b014" />
+
+Comprobamos con el siguiente comando ``ansible lab1 -i ~/homelab/inventory.ini -m shell -a "docker ps"``
+
+Mira tu docker ps:
+
+    whoami → 0.0.0.0:8080->80/tcp Up 2 minutes
+    Creado por Terraform hace 2 minutos, no por Portainer
+
+Has desplegado tu primera infraestructura como código. Ya no tocaste Portainer, solo un archivo .tf.
+
+<img width="1889" height="269" alt="Captura de pantalla 2026-06-12 232005" src="https://github.com/user-attachments/assets/bc4d0c9e-344e-40b0-9b21-f4e8b801ed00" />
+
+Prueba final, abre tu navegador en windows: http://192.168.56.101:8080
+
+Esa página que ves es tu contenedor whoami creado 100% con Terraform, desde tu Ubuntu, sin tocar Portainer.
+
+    Hostname: 63473407e917 → es el ID que salía en tu docker ps
+    RemoteAddr: 192.168.56.1 → eres tú desde Windows
+    Puerto 8080 abierto por la regla UFW que pusimos con Ansible
+
+Ya tienes el ciclo completo: Ansible prepara la VM → Terraform despliega la app → tú la consumes.
+
+
+<img width="776" height="394" alt="Captura de pantalla 2026-06-12 232235" src="https://github.com/user-attachments/assets/d1cfd145-31b6-4a09-8043-730c8f9d80bf" />
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
