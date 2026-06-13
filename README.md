@@ -218,6 +218,8 @@ Comprobamos con el comando ``id tinako`` que tenemos los permisos sudo.
 
 instalaremos las siguientes herramientas. ssh, curl, vim y net-tools ``sudo apt install -y openssh-server curl vim net-tools``
 
+<img width="640" height="68" alt="Captura de pantalla 2026-06-13 203146" src="https://github.com/user-attachments/assets/4f568921-75f7-4c10-836d-ce02dbae5e0b" />
+
 <img width="903" height="817" alt="Captura de pantalla 2026-06-05 232644" src="https://github.com/user-attachments/assets/6ec4439d-a882-4c2b-8ff3-13de057326a8" />
 
 Apagamos la máquina virtual con el comando ``poweroff`` y configuramos lo siguiente:
