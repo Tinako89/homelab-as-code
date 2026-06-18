@@ -528,7 +528,65 @@ Ya tienes el ciclo completo: Ansible prepara la VM → Terraform despliega la ap
 
 <img width="776" height="394" alt="Captura de pantalla 2026-06-12 232235" src="https://github.com/user-attachments/assets/d1cfd145-31b6-4a09-8043-730c8f9d80bf" />
 
-Instalar Proxmox en hardware dedicado
+Instalar Proxmox en VirtualBox 
+
+Nombre: pve
+Tipo: Linux → Debian (64-bit)
+Imágen ISO: La que hemos descargado.
+
+
+<img width="784" height="582" alt="Captura de pantalla 2026-06-18 191109" src="https://github.com/user-attachments/assets/eee84509-19a5-4c1a-9064-2fb082b00db6" />
+
+CPU: 2 cores mínimo, marca "Habilitar PAE/NX"
+RAM: 4096 MB mínimo (8192 ideal)
+
+<img width="781" height="581" alt="Captura de pantalla 2026-06-18 191337" src="https://github.com/user-attachments/assets/68c2a6c4-e46b-4c3a-b6f6-5579fbfc65c4" />
+
+
+Disco: Crear VDI → 32 GB mínimo (dinámico)
+
+<img width="785" height="581" alt="Captura de pantalla 2026-06-18 191433" src="https://github.com/user-attachments/assets/be518c73-744c-458f-9f5f-2d915cb25e1a" />
+
+Instalacion Proxmox VE
+
+Iniciamos e instalacion gráfica.
+
+<img width="1024" height="836" alt="Captura de pantalla 2026-06-18 191617" src="https://github.com/user-attachments/assets/bd99bca5-4f9b-4ec1-b521-716256d820ff" />
+
+Te mostrará sda - 32GB
+
+<img width="1280" height="853" alt="Captura de pantalla 2026-06-18 191839" src="https://github.com/user-attachments/assets/915e75ac-8561-49a2-914f-b4a3ab4523a4" />
+
+Páis, zona horario e idioma de nuestro teclado.
+
+<img width="1283" height="853" alt="Captura de pantalla 2026-06-18 192005" src="https://github.com/user-attachments/assets/af5ab6d4-3bb9-4b53-980a-3685e4b97bf2" />
+
+Contraseña y nuestro email
+
+<img width="1285" height="842" alt="Captura de pantalla 2026-06-18 192054" src="https://github.com/user-attachments/assets/1678291b-afcf-44ae-900b-c83c1197b6fc" />
+
+Configuracion de red, Ponlo así para que esté en tu misma red que lab1:
+
+<img width="1280" height="851" alt="Captura de pantalla 2026-06-18 192439" src="https://github.com/user-attachments/assets/95b868d2-3474-4986-b044-3687d14aed2d" />
+
+Comenzará la instalación
+
+<img width="1281" height="850" alt="Captura de pantalla 2026-06-18 192531" src="https://github.com/user-attachments/assets/85c6d6eb-651d-41b7-83ff-c5c2daa2a90f" />
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
