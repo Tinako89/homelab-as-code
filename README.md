@@ -589,7 +589,7 @@ Ahora si, vamos al navegador web https://192.168.56.10:8006
 
 <img width="1909" height="910" alt="Captura de pantalla 2026-06-18 194538" src="https://github.com/user-attachments/assets/ceaa8c48-f0b5-4059-bf94-71190c329aa0" />
 
-Entramos con usuario root y contraseña que pusiste en la istalacion de Proxmox.
+Entramos con usuario root y contraseña que pusiste en la instalacion de Proxmox.
 
 <img width="1916" height="911" alt="Captura de pantalla 2026-06-18 194805" src="https://github.com/user-attachments/assets/64e6674c-9ed8-44a2-9444-d498279ba451" />
 
