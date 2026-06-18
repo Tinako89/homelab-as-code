@@ -1,63 +1,75 @@
 <div align="center">
 
-<img width="1440" height="816" alt="homelab_cover_v3_44522697" src="https://github.com/user-attachments/assets/28714852-3f70-41c6-8dd6-48e433ddd235" />
+<img src="https://github.com/user-attachments/assets/28714852-3f70-41c6-8dd6-48e433ddd235" width="100%" alt="Homelab as Code Banner"/>
 
+<br>
 
-### De instalar a mano → a automatizar como en producción
+# Homelab as Code
 
+<h3>De "clicar en VirtualBox" → a "terraform apply" en producción</h3>
 
-*Proyecto personal para aprender administración de sistemas desde cero*
+<p><em>Mi bitácora pública aprendiendo sysadmin desde cero. Sin atajos, todo en Git.</em></p>
 
-[![Status](https://img.shields.io/badge/Estado-%20Finalizado-green)](https://github.com/togurr95/homelab-as-code)
-[![Linux](https://img.shields.io/badge/OS-Debian%2013-red)](https://debian.org)
-[![Creado con](https://img.shields.io/badge/Creado%20con-VirtualBox-blue)](https://virtualbox.org)
+<p>
+  <a href="https://github.com/togurr95/homelab-as-code"><img src="https://img.shields.io/badge/Estado-Activo-success?style=for-the-badge&logo=github"></a>
+  <a href="https://www.debian.org/"><img src="https://img.shields.io/badge/Debian-13_Trixie-A81D33?style=for-the-badge&logo=debian&logoColor=white"></a>
+  <a href="https://proxmox.com"><img src="https://img.shields.io/badge/Proxmox_VE-9.2-E57000?style=for-the-badge&logo=proxmox&logoColor=white"></a>
+  <a href="https://www.virtualbox.org/"><img src="https://img.shields.io/badge/VirtualBox-7.x-183A61?style=for-the-badge&logo=virtualbox&logoColor=white"></a>
+</p>
+<p>
+  <img src="https://img.shields.io/badge/Ansible-Automatización-EE0000?style=for-the-badge&logo=ansible&logoColor=white">
+  <img src="https://img.shields.io/badge/Terraform-IaC-7B42BC?style=for-the-badge&logo=terraform&logoColor=white">
+  <img src="https://img.shields.io/badge/Docker-Contenedores-2496ED?style=for-the-badge&logo=docker&logoColor=white">
+</p>
 
 </div>
 
 ---
 
-## 🎯 ¿Qué estoy aprendiendo?
+🎯 ¿Qué estoy aprendiendo?
 
-**1. Virtualización con VirtualBox**
-Primero aprendo a crear máquinas virtuales en mi PC. Es el gimnasio antes de saltar a Proxmox VE en un servidor real.
+1. 🧱 Virtualización con VirtualBox
+Mi gimnasio personal. Creo, clono y rompo VMs sin miedo antes de dar el salto a Proxmox VE 9.2 en hardware real.
 
-**2. Linux Debian 13 (Bookworm/Trixie)**
-Instalación mínima, gestión por terminal, usuarios, permisos, systemd y redes. La base de cualquier sysadmin.
+2. 🐧 Debian 13 (Trixie)
+Desde cero: instalación minimal, systemd, usuarios y permisos, redes estáticas y hardening básico. La base de todo sysadmin.
 
-**3. Acceso remoto con SSH**
-Conectarme desde Windows Terminal sin usar la pantalla de VirtualBox, como se trabaja en empresas.
+3. 🔐 SSH Profesional
+Acceso sin GUI desde Windows Terminal + WSL2. Llaves ED25519, sin contraseñas, como en producción.
 
-**4. Ansible**
-Automatizar configuración: instalar paquetes, crear usuarios y desplegar servicios con playbooks en YAML.
+4. 🤖 Ansible
+Automatización idempotente. De apt update a desplegar Docker + Portainer con un solo playbook YAML.
 
-**5. Terraform**
-Definir infraestructura como código. Empezaré con VirtualBox y migraré a Proxmox cuando tenga hardware.
+5. 🏗️ Terraform
+Infraestructura como Código. Empiezo con el provider de Docker y migro a Proxmox cuando tenga el lab físico.
 
-**6. Git y GitHub**
-Versionar todo. Cada cambio es un commit, cada práctica es documentación.
+6. 📦 Git y GitHub
+Todo versionado. Cada laboratorio es un commit, cada error es documentación.
+## 🛠️ Stack
 
-## 🛠️ Stack actual
-
-| Capa | Herramienta | Estado |
+| Capa | Tecnología | Estado |
 | :--- | :--- | :--- |
-| Virtualización | **VirtualBox 7.x** | ✅ En uso |
-| Sistema Operativo | **Debian 13** | ✅ Instalando |
-| Terminal | Windows Terminal + SSH | ✅ Instalando |
-| Control de versiones | Git + GitHub | ✅ Instalando |
-| Configuración | **Ansible** | ✅ Instalando |
-| IaC | **Terraform** | ✅ Instalando |
-| Hipervisor real | **Proxmox VE** | ✅ Instalando |
+| **Hipervisor** | Proxmox VE 9.2 (en VM) | ✅ |
+| **Lab Local** | VirtualBox 7.x + Host-Only | ✅ |
+| **OS** | Debian 13 Trixie | ✅ |
+| **Automatización** | Ansible 2.17 | ✅ |
+| **IaC** | Terraform 1.9 | ✅ |
+| **Contenedores** | Docker + Portainer | ✅ |
 
-## 🗺️ Roadmap
+## 🗺️ Roadmap 2026
 
-- [x] Crear repositorio y documentación
-- [x] Instalar VirtualBox
-- [x] Primera VM Debian (lab-1)
-- [x] Configurar SSH y acceso sin contraseña
-- [x] Primer playbook Ansible: actualizar sistema
-- [x] Segundo playbook: instalar Nginx
-- [x] Migrar a Terraform para crear VMs
-- [x] Instalar Proxmox en VirtualBox
+- [x] Repo + VirtualBox + Debian base
+- [x] Red 192.168.56.0/24 + SSH con llaves
+- [x] Ansible: Nginx, Docker, hardening
+- [x] Terraform: primer contenedor `whoami`
+- [x] Proxmox VE instalado y accesible
+- [ ] **AHORA →** Terraform provider Proxmox
+- [ ] Plantilla cloud-init Debian
+- [ ] Pi-hole + Traefik + Homarr con código
+- [ ] CI/CD con GitHub Actions
+
+---
+
 
 Paso 1: Descargar e instalar VirtualBox: https://www.virtualbox.org/
 
@@ -595,13 +607,9 @@ Entramos con usuario root y contraseña que pusiste en la instalacion de Proxmox
 
 <img width="1918" height="912" alt="Captura de pantalla 2026-06-18 194933" src="https://github.com/user-attachments/assets/7f3200c1-8afe-4dc0-a43b-46d3093fc28c" />
 
-
-
-
-
-
-
-
+<div align="center">
+<sub>Hecho pa con ☕, Debian y muchas snapshots rotas · <a href="https://github.com/togurr95">Tinako89</a></sub>
+</div>
 
 
 
