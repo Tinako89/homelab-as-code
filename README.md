@@ -549,27 +549,27 @@ Disco: Crear VDI → 32 GB mínimo (dinámico)
 
 Instalacion Proxmox VE
 
-Iniciamos e instalacion gráfica.
+Iniciamos y elegimos la opción de instalacion gráfica.
 
 <img width="1024" height="836" alt="Captura de pantalla 2026-06-18 191617" src="https://github.com/user-attachments/assets/bd99bca5-4f9b-4ec1-b521-716256d820ff" />
 
-Te mostrará sda - 32GB
+Te mostrará el espacio de disco duro ``sda - 32GB``
 
 <img width="1280" height="853" alt="Captura de pantalla 2026-06-18 191839" src="https://github.com/user-attachments/assets/915e75ac-8561-49a2-914f-b4a3ab4523a4" />
 
-Páis, zona horario e idioma de nuestro teclado.
+Seleccionamos nuestro páis, zona horario y el idioma de nuestro teclado.
 
 <img width="1283" height="853" alt="Captura de pantalla 2026-06-18 192005" src="https://github.com/user-attachments/assets/af5ab6d4-3bb9-4b53-980a-3685e4b97bf2" />
 
-Contraseña y nuestro email
+Contraseña y nuestro email.
 
 <img width="1285" height="842" alt="Captura de pantalla 2026-06-18 192054" src="https://github.com/user-attachments/assets/1678291b-afcf-44ae-900b-c83c1197b6fc" />
 
-Configuracion de red, Ponlo así para que esté en tu misma red que lab1:
+Configuracion de red, Ponlo así para que esté en tu misma red que lab1
 
 <img width="1280" height="851" alt="Captura de pantalla 2026-06-18 192439" src="https://github.com/user-attachments/assets/95b868d2-3474-4986-b044-3687d14aed2d" />
 
-Comenzará la instalación
+Comenzará la instalación.
 
 <img width="1281" height="850" alt="Captura de pantalla 2026-06-18 192531" src="https://github.com/user-attachments/assets/85c6d6eb-651d-41b7-83ff-c5c2daa2a90f" />
 
@@ -581,7 +581,7 @@ Apagamos y volvemos a encender, Proxmox VE 9.2 ya está instalado, arrancado y c
 
 <img width="871" height="501" alt="Captura de pantalla 2026-06-18 193137" src="https://github.com/user-attachments/assets/351c734a-8e94-4ac8-8ca1-c45a0bf8dcb2" />
 
-Antes de acceder a promox desde el navegador web en red adaptador puente para la comunicacion de las dos máquinas "lad-debian-1" y "pve"
+Antes de acceder a Promox desde el navegador web, en red ponemos adaptador puente para la comunicacion de las dos máquinas "lad-debian-1" y "pve"
 
 <img width="866" height="505" alt="Captura de pantalla 2026-06-18 194415" src="https://github.com/user-attachments/assets/32f29502-c50f-4eb7-9226-423034626998" />
 
