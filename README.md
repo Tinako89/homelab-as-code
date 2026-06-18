@@ -573,6 +573,18 @@ Comenzará la instalación
 
 <img width="1281" height="850" alt="Captura de pantalla 2026-06-18 192531" src="https://github.com/user-attachments/assets/85c6d6eb-651d-41b7-83ff-c5c2daa2a90f" />
 
+Una vez instalado se reiniciará automaticamente, iniciamos y "extraemos el disco" Dispositivos → Unidades ópticas → Quitar disco de la unidad virtual
+
+<img width="1028" height="843" alt="Captura de pantalla 2026-06-18 192926" src="https://github.com/user-attachments/assets/9f373a4f-b82f-4829-8b03-3d8d72ba99e8" />
+
+Apagamos y volvemos a encender, Proxmox VE 9.2 ya está instalado, arrancado y con red funcionando en tu VirtualBox.
+
+<img width="871" height="501" alt="Captura de pantalla 2026-06-18 193137" src="https://github.com/user-attachments/assets/351c734a-8e94-4ac8-8ca1-c45a0bf8dcb2" />
+
+
+
+
+
 
 
 
