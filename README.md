@@ -593,6 +593,8 @@ Entramos con usuario root y contraseña que pusiste en la istalacion de Proxmox.
 
 <img width="1916" height="911" alt="Captura de pantalla 2026-06-18 194805" src="https://github.com/user-attachments/assets/64e6674c-9ed8-44a2-9444-d498279ba451" />
 
+<img width="1918" height="912" alt="Captura de pantalla 2026-06-18 194933" src="https://github.com/user-attachments/assets/7f3200c1-8afe-4dc0-a43b-46d3093fc28c" />
+
 
 
 
