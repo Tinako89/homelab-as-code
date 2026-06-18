@@ -608,7 +608,7 @@ Entramos con usuario root y contraseña que pusiste en la instalacion de Proxmox
 <img width="1918" height="912" alt="Captura de pantalla 2026-06-18 194933" src="https://github.com/user-attachments/assets/7f3200c1-8afe-4dc0-a43b-46d3093fc28c" />
 
 <div align="center">
-<sub>Hecho pa con ☕, Debian y muchas snapshots rotas · <a href="https://github.com/togurr95">Tinako89</a></sub>
+<sub>Hecho con paciencia ☕, Debian y muchas snapshots rotas · <a href="https://github.com/Tinako89">Tinako89</a></sub>
 </div>
 
 
@@ -721,4 +721,3 @@ Entramos con usuario root y contraseña que pusiste en la instalacion de Proxmox
 
 
 
-En creación...
