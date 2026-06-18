@@ -581,6 +581,22 @@ Apagamos y volvemos a encender, Proxmox VE 9.2 ya está instalado, arrancado y c
 
 <img width="871" height="501" alt="Captura de pantalla 2026-06-18 193137" src="https://github.com/user-attachments/assets/351c734a-8e94-4ac8-8ca1-c45a0bf8dcb2" />
 
+Antes de acceder a promox desde el navegador web en red adaptador puente para la comunicacion de las dos máquinas "lad-debian-1" y "pve"
+
+<img width="866" height="505" alt="Captura de pantalla 2026-06-18 194415" src="https://github.com/user-attachments/assets/32f29502-c50f-4eb7-9226-423034626998" />
+
+Ahora si, vamos al navegador web https://192.168.56.10:8006 
+
+<img width="1909" height="910" alt="Captura de pantalla 2026-06-18 194538" src="https://github.com/user-attachments/assets/ceaa8c48-f0b5-4059-bf94-71190c329aa0" />
+
+Entramos con usuario root y contraseña que pusiste en la istalacion de Proxmox.
+
+<img width="1916" height="911" alt="Captura de pantalla 2026-06-18 194805" src="https://github.com/user-attachments/assets/64e6674c-9ed8-44a2-9444-d498279ba451" />
+
+
+
+
+
 
 
 
