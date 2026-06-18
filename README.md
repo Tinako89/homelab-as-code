@@ -44,20 +44,20 @@ Versionar todo. Cada cambio es un commit, cada práctica es documentación.
 | Sistema Operativo | **Debian 13** | ✅ Instalando |
 | Terminal | Windows Terminal + SSH | ✅ |
 | Control de versiones | Git + GitHub | ✅ |
-| Configuración | **Ansible** | 🔜 Próximo |
-| IaC | **Terraform** | 🔜 Próximo |
-| Hipervisor real | **Proxmox VE** | 🔜 Fase 2 |
+| Configuración | **Ansible** | ✅ |
+| IaC | **Terraform** | ✅ |
+| Hipervisor real | **Proxmox VE** | ✅ |
 
 ## 🗺️ Roadmap
 
 - [x] Crear repositorio y documentación
 - [x] Instalar VirtualBox
 - [x] Primera VM Debian (lab-1)
-- [ ] Configurar SSH y acceso sin contraseña
-- [ ] Primer playbook Ansible: actualizar sistema
-- [ ] Segundo playbook: instalar Nginx
-- [ ] Migrar a Terraform para crear VMs
-- [ ] Instalar Proxmox en VirtualBox
+- [x] Configurar SSH y acceso sin contraseña
+- [x] Primer playbook Ansible: actualizar sistema
+- [x] Segundo playbook: instalar Nginx
+- [x] Migrar a Terraform para crear VMs
+- [x] Instalar Proxmox en VirtualBox
 
 Paso 1: Descargar e instalar VirtualBox: https://www.virtualbox.org/
 
