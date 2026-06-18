@@ -57,7 +57,7 @@ Versionar todo. Cada cambio es un commit, cada práctica es documentación.
 - [ ] Primer playbook Ansible: actualizar sistema
 - [ ] Segundo playbook: instalar Nginx
 - [ ] Migrar a Terraform para crear VMs
-- [ ] Instalar Proxmox en hardware dedicado
+- [ ] Instalar Proxmox en VirtualBox
 
 Paso 1: Descargar e instalar VirtualBox: https://www.virtualbox.org/
 
