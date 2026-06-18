@@ -10,7 +10,7 @@
 
 [![Status](https://img.shields.io/badge/Estado-%20Finalizado-green)](https://github.com/togurr95/homelab-as-code)
 [![Linux](https://img.shields.io/badge/OS-Debian%2013-red)](https://debian.org)
-[![Creado con](https://img.shields.io/badge/Made%20with-VirtualBox-blue)](https://virtualbox.org)
+[![Creado con](https://img.shields.io/badge/Creado%20con-VirtualBox-blue)](https://virtualbox.org)
 
 </div>
 
