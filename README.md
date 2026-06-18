@@ -8,7 +8,7 @@
 
 *Proyecto personal para aprender administración de sistemas desde cero*
 
-[![Status](https://img.shields.io/badge/Estado-En%20Finalizado-green)](https://github.com/togurr95/homelab-as-code)
+[![Status](https://img.shields.io/badge/Estado-%20Finalizado-green)](https://github.com/togurr95/homelab-as-code)
 [![Linux](https://img.shields.io/badge/OS-Debian%2013-red)](https://debian.org)
 [![Made with](https://img.shields.io/badge/Made%20with-VirtualBox-blue)](https://virtualbox.org)
 
