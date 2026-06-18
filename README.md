@@ -42,11 +42,11 @@ Versionar todo. Cada cambio es un commit, cada práctica es documentación.
 | :--- | :--- | :--- |
 | Virtualización | **VirtualBox 7.x** | ✅ En uso |
 | Sistema Operativo | **Debian 13** | ✅ Instalando |
-| Terminal | Windows Terminal + SSH | ✅ |
-| Control de versiones | Git + GitHub | ✅ |
-| Configuración | **Ansible** | ✅ |
-| IaC | **Terraform** | ✅ |
-| Hipervisor real | **Proxmox VE** | ✅ |
+| Terminal | Windows Terminal + SSH | ✅ Instalando |
+| Control de versiones | Git + GitHub | ✅ Instalando |
+| Configuración | **Ansible** | ✅ Instalando |
+| IaC | **Terraform** | ✅ Instalando |
+| Hipervisor real | **Proxmox VE** | ✅ Instalando |
 
 ## 🗺️ Roadmap
 
